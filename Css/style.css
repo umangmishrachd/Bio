@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: rgb(88, 88, 88);
+}
+
+.top_container {
+  background-color: rgb(192, 228, 233);
+  margin-bottom: 3rem;
+  padding-top: 100px;
+  position: relative;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: "MonteCarlo", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Sora", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  font-family: "Sora", sans-serif;
+  color: #11999e;
+}
+
+.bio {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.middle_container {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.bottom_container {
+  background-color: rgb(192, 228, 233);
+  height: 200px;
+  left: 200px;
+  position: absolute;
+  width: 200px;
+}
+
+.top_cloud {
+  position: absolute;
+  top: 50px;
+  right: 350px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+
+.footer-link {
+  color: #11999e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile img {
+  width: 15%;
+}
+
+.skill-row .web_image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row .code_image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr{
+   
+    border-top: 9px dotted lightgray;
+    margin: 100px auto;
+    width: 8%;
+
+
+}
+
+footer{
+
+    background: #66BFBF;
+    padding: 50px;
+}
+
+.footer-link{
+
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.footer-link:hover{
+  color:white;
+}
+
+.button{
+
+ 
+        background: #66BFBF;
+        border-radius: 9px;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px;
+        border: solid #66BFBF 1px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        text-transform: uppercase;
+        box-shadow: 1px 1px 5px 0 #66BFBF;
+        text-shadow: 1px 1px 5px #66BFBF;
+        margin: 50px auto;
+        font-family: "Sora", sans-serif;
+     
+}
+
+footer .copyright{
+
+  color:white;
+  font-family: "Sora", sans-serif;
+  font-size: 12px;
+  padding: 10px 0;
+}
